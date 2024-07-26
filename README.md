@@ -15,7 +15,7 @@ Assurez-vous de configurer le service dans votre fichier de configuration `servi
 services:
     App\Service\FileUploader:
         arguments:
-            $targetDirectory: '%kernel.project_dir%/public/uploads'
+            $targetDirectory: '%kernel.project_dir%/assets/uploads'
 ```
 
 ## Utilisation
